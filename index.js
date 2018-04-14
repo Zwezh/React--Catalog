@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
 import Nav from './src/components/Nav';
 import Home from './src/components/Home';
@@ -9,15 +10,17 @@ import Products from './src/components/Products';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-    <Router>
-        <div className="container">
-            <Nav />
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/products" component={Products} />                
-            </Switch>
-        </div>
-    </Router>, 
+    <Provider>
+        <Router>
+            <div className="container">
+                <Nav />
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/about" component={About} />
+                    <Route path="/products" component={Products} />                
+                </Switch>
+            </div>
+        </Router>
+    </Provider>,
     document.getElementById('root')
 );
