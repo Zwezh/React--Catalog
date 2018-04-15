@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 
 import Nav from './src/components/Nav';
 import Home from './src/components/Home';
@@ -9,15 +10,18 @@ import About from './src/components/About';
 import Products from './src/components/Products';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import reducer from './src/reducers/reducer';
+
+const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 ReactDOM.render(
-    <Provider>
+    <Provider store = { store } >
         <Router>
-            <div className="container">
+            <div className = "container">
                 <Nav />
                 <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/about" component={About} />
-                    <Route path="/products" component={Products} />                
+                    <Route exact path = "/" component={Home} />
+                    <Route path = "/about" component={About} />
+                    <Route path = "/products" component={Products} />                
                 </Switch>
             </div>
         </Router>

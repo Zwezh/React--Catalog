@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "name": "Хлеб",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "2",
+        "name": "Молоко",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "3",
+        "name": "Сливочное масло",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "4",
+        "name": "Майонез",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "5",
+        "name": "Шоколадное мороженное",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "6",
+        "name": "Бананы",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "7",
+        "name": "Апельсины",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "8",
+        "name": "Капуста",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "9",
+        "name": "Сметана",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "10",
+        "name": "Подгузники",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "11",
+        "name": "Салфетки",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "12",
+        "name": "Вода",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": "13",
+        "name": "Сок",
+        "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    }
+]
