@@ -7,7 +7,10 @@ module.exports = {
     entry: './index.js',
     devtool: 'cheap-module-source-map',
     plugins: [
-        new HtmlWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            title: 'Каталог товаров',
+            template: 'index.html'
+        }),
         new webpack.HotModuleReplacementPlugin()
     ],
 
@@ -28,8 +31,7 @@ module.exports = {
         hot: true
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 enforce: 'pre',
                 test: /\.js$/,
                 exclude: /node_modules/,
