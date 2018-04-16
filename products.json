@@ -2,66 +2,79 @@
     {
         "id": "1",
         "name": "Хлеб",
+        "price": "1.99",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "2",
         "name": "Молоко",
+        "price": "1.49",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "3",
         "name": "Сливочное масло",
+        "price": "2.59",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "4",
         "name": "Майонез",
+        "price": "1.99",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "5",
         "name": "Шоколадное мороженное",
+        "price": "0.99",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "6",
         "name": "Бананы",
+        "price": "2.99",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "7",
         "name": "Апельсины",
+        "price": "3.99",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "8",
         "name": "Капуста",
+        "price": "1.29",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "9",
         "name": "Сметана",
+        "price": "3.49",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "10",
         "name": "Подгузники",
+        "price": "23.99",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "11",
         "name": "Салфетки",
+        "price": "1.19",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "12",
         "name": "Вода",
+        "price": "0.99",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     },
     {
         "id": "13",
         "name": "Сок",
+        "price": "1.59",
         "description": "Lorem ipsum dolor sit amet,no sea takimata sanctus est Lorem ipsum dolor sit amet."
     }
 ]

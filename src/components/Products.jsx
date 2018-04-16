@@ -1,23 +1,48 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import * as types from '../constants'
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+
+import Product from './Product';
+
+import * as types from '../constants';
 
 class Products extends React.Component {
     render() {
         return (
-            <h1>Products page</h1>
+            <div className="container">
+                <h1>Products page</h1>
+
+                <Link className="btn btn-default" to="/products/new">Добавить</Link>
+                <ul>
+                    {
+                        this.props.products.map(item =>
+                            <Product
+                                onDelete={this.props.deleteProduct}
+                                key={item.id}
+                                product={item}
+                            />
+                        )
+                    }
+                </ul>
+            </div>
         )
     }
+}
+Products.propTypes = {
+    products: PropTypes.array.isRequired,
+    deleteProduct: PropTypes.func
 }
 
 const mapStateToProps = (state) => {
     return {
-        products: state
+        products: state.products
     }
 }
+
 const mapDispatchToProps = (dispatch) => {
     return {
-        addNewProduct: () => dispatch({ type: types.ADD_NEW_PRODUCT, product: {} })
+        deleteProduct: (id) => dispatch({ type: types.DELETE_PRODUCT, id: id })
     }
 }
 

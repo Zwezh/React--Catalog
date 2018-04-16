@@ -8,6 +8,7 @@ import Nav from './src/components/Nav';
 import Home from './src/components/Home';
 import About from './src/components/About';
 import Products from './src/components/Products';
+import ProductDetails from './src/components/ProductDetails';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import reducer from './src/reducers/reducer';
@@ -21,7 +22,9 @@ ReactDOM.render(
                 <Switch>
                     <Route exact path = "/" component={Home} />
                     <Route path = "/about" component={About} />
-                    <Route path = "/products" component={Products} />                
+                    <Route exact path = "/products" component={Products} />
+                    <Route path = "/products/:id" component={ProductDetails} />
+                    <Route exact path = "/products/new" component={ProductDetails} />
                 </Switch>
             </div>
         </Router>
