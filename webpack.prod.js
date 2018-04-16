@@ -1,11 +1,11 @@
-const publicPath = '/dist/build/';
+const publicPath = '/react-catalog/build/';
 var path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
     entry: './index.js',
     output: {
-        path: path.join(__dirname, '/dist/assets'),
+        path: path.join(__dirname, '/react-catalog/assets'),
         filename: '[name].bundle.js',
         publicPath: publicPath,
         sourceMapFilename: '[name].map'

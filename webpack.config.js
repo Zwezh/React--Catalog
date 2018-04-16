@@ -1,6 +1,6 @@
 var path = require('path');
 const webpack = require('webpack');
-const publicPath = '/react-catalog/dist/build/';
+const publicPath = '/react-catalog/build/';
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
