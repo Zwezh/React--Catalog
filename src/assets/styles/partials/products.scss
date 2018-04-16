@@ -1,0 +1,16 @@
+.products {
+    background-color: #efefef;
+    .products__new {
+        padding: 15px;
+        text-align: center;
+    }
+    .products__product {
+        .products__product-name {
+            text-align: center;
+            color: #0B253A;
+        }
+        .products__product-delete {
+            float: right;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.product-details {
+    .product-details__title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .product-details__input {
+        height: 3em;
+        font-size: 16px;
+        border-radius: 0;
+        margin: 15px 0;
+    }
+    .product-details__textarea {
+        resize: none;
+        height: 10em;
+    }
+    .product-details__btn {
+        text-align: center;
+        margin: 40px;
+    }
+}
